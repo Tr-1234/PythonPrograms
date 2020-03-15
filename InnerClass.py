@@ -9,3 +9,11 @@ class Outer:
 
 
 Outer().Inner().m1()
+'''
+
+if __name__ == "__main__":
+    print("one.py is being run directly")
+else:
+    print("one.py is being imported into another module")
+
+'''
